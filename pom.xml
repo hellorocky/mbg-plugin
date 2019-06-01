@@ -6,7 +6,7 @@
 
     <groupId>com.github.hellorocky</groupId>
     <artifactId>mbg-plugin</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <packaging>pom</packaging>
     <name>mbg-plugin</name>
     <url>https://github.com/hellorocky/mbg-plugin</url>
