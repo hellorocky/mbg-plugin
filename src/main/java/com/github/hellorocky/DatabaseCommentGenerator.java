@@ -10,7 +10,6 @@ import org.mybatis.generator.internal.DefaultCommentGenerator;
 
 /**
  * @author RockyWu
- * @date 2019-06-01
  */
 public class DatabaseCommentGenerator extends DefaultCommentGenerator {
     @Getter
