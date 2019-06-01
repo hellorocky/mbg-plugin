@@ -15,6 +15,7 @@ import java.util.List;
 
 @Data
 public class LombokPlugin extends PluginAdapter {
+    @Override
     public boolean validate(List<String> list) {
         return true;
     }
@@ -47,7 +48,7 @@ public class LombokPlugin extends PluginAdapter {
     private void addLombokAnnotation(TopLevelClass topLevelClass, IntrospectedTable introspectedTable){
         topLevelClass.addImportedType("lombok.*");
         topLevelClass.addAnnotation("@Data");
-        topLevelClass.addAnnotation("@NoArgsConstructor");
+//        topLevelClass.addAnnotation("@NoArgsConstructor");
     }
 
     @Override
